@@ -16,7 +16,7 @@
  • Group Membership:– Each user should be added to the wheel group to grant them administrative privileges.
  
  • Password Expiration Notification:– Implement a mechanism to notify users of their password expiration
-
+------------------------------------------------------------------------------------------------------------------------------------
 
  ### Explanation of the script
 
@@ -30,6 +30,8 @@
    - Sets the home directory permissions to 700 (only accessible by the user).
    - Prints a confirmation message after creating each user.
    - Notifies that users will receive password expiration warnings.
+  
+------------------------------------------------------------------------------------------------------------------------------------
 
 ### TO RUN THE SCRIPT 
 
