@@ -16,6 +16,7 @@
  • Group Membership:– Each user should be added to the wheel group to grant them administrative privileges.
  
  • Password Expiration Notification:– Implement a mechanism to notify users of their password expiration
+ 
 ------------------------------------------------------------------------------------------------------------------------------------
 
  ### Explanation of the script
