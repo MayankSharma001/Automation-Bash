@@ -66,7 +66,7 @@ report.
     sudo yum install mailx          # For CentOS/RHEL
 
 ### permissions: Ensure the script has execute permissions:
-    chmod +x disk_usage_report_simple.sh
+    chmod +x disk_usage_report.sh
 
 ## 2. Automating with Cron
 ## To ensure the script runs daily, set up a cron job:
@@ -77,6 +77,6 @@ report.
     
     Add the following line to schedule the script daily at 8:00 AM:
     
-    0 8 * * * /path/to/disk_usage_report_simple.sh
+    0 8 * * * /path/to/disk_usage_report.sh
     
     Save and exit.
