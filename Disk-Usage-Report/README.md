@@ -16,7 +16,7 @@ report.
 • Automate the Process:
 – The script should be set up to run daily using a cron job.
 
-### -------------------------------------------------------------------------------------------------------------------------------------------
+### --------------------------------------------------------------------------------------------------------------------------------
 
 # Features
 
@@ -36,8 +36,7 @@ report.
 ### Automation:
     -- Configurable for daily execution via a cron job.
 
-
-### -------------------------------------------------------------------------------------------------------------------------------------------
+### --------------------------------------------------------------------------------------------------------------------------------
 
 # Explanation of the Script
 
@@ -53,7 +52,7 @@ The df -h command collects a human-readable overview of disk usage across all mo
 ## Send Email:
 The mail command sends the generated report as the email body.
 
-### -------------------------------------------------------------------------------------------------------------------------------------------
+### --------------------------------------------------------------------------------------------------------------------------------
 
 # Setup Instructions
 
@@ -63,6 +62,7 @@ Ensure the following tools are installed on your system:
 ### mailutils: Used for sending emails.
 
 sudo apt-get install mailutils  # For Debian/Ubuntu
+
 sudo yum install mailx          # For CentOS/RHEL
 
 ### permissions: Ensure the script has execute permissions:
