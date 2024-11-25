@@ -41,42 +41,42 @@ report.
 # Explanation of the Script
 
 ## Email Address:
-The EMAIL variable specifies the recipient's email address (e.g., admin@mycomp.com).
+    The EMAIL variable specifies the recipient's email address (e.g., admin@mycomp.com).
 
 ## Subject Line:
-The SUBJECT variable adds a dynamic subject line to the email with the current date for easy tracking.
+    The SUBJECT variable adds a dynamic subject line to the email with the current date for easy tracking.
 
 ## Disk Usage Report:
-The df -h command collects a human-readable overview of disk usage across all mounted filesystems.
+    The df -h command collects a human-readable overview of disk usage across all mounted filesystems.
 
 ## Send Email:
-The mail command sends the generated report as the email body.
+    The mail command sends the generated report as the email body.
 
 ### -----------------------------------------------------------------------------------------------------------------------------
 
 # Setup Instructions
 
 ## 1. Prerequisites
-Ensure the following tools are installed on your system:
+## Ensure the following tools are installed on your system:
 
-### mailutils: Used for sending emails.
+    mailutils: Used for sending emails.
+    
+    sudo apt-get install mailutils  # For Debian/Ubuntu
 
-sudo apt-get install mailutils  # For Debian/Ubuntu
-
-sudo yum install mailx          # For CentOS/RHEL
+    sudo yum install mailx          # For CentOS/RHEL
 
 ### permissions: Ensure the script has execute permissions:
-chmod +x disk_usage_report_simple.sh
+    chmod +x disk_usage_report_simple.sh
 
 ## 2. Automating with Cron
-To ensure the script runs daily, set up a cron job:
+## To ensure the script runs daily, set up a cron job:
 
 ### Edit the crontab file:
 
-crontab -e
-
-Add the following line to schedule the script daily at 8:00 AM:
-
-0 8 * * * /path/to/disk_usage_report_simple.sh
-
-Save and exit.
+    crontab -e
+    
+    Add the following line to schedule the script daily at 8:00 AM:
+    
+    0 8 * * * /path/to/disk_usage_report_simple.sh
+    
+    Save and exit.
