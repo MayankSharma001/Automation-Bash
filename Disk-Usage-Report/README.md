@@ -65,7 +65,7 @@ report.
 
     sudo yum install mailx          # For CentOS/RHEL
 
-### permissions: Ensure the script has execute permissions:
+### Permissions: Ensure the script has execute permissions:
     chmod +x disk_usage_report.sh
 
 ## 2. Automating with Cron
