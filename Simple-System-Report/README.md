@@ -7,7 +7,8 @@
     3. The usernames of those logged in.
 
 ## How to Use
-    1. Save the Script: Save the code in a file, e.g., system_report.sh.
+    1. Save the Script:
+        Save the code in a file, e.g., system_report.sh.
     2. Make It Executable:
         chmod +x system_report.sh
     3. Run the Script:
