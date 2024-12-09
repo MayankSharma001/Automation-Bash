@@ -1,6 +1,21 @@
 # Log Rotation Script
-    This script is designed for system administrators at MyComp to manage log files for specified services by automating log rotation, compression, and cleanup tasks.
-    It ensures optimal server performance and prevents disk space issues.
+
+   ## Task Description
+    As a system administrator at ”MyComp,” managing log files is crucial to maintaining server performance
+    and preventing disk space issues. Over time, log files can grow significantly, so you need to implement
+    a log rotation strategy. This task involves creating a script that rotates logs for specified services,
+    compresses old logs, and removes logs older than a specified period.
+    
+    • Log Rotation:
+        – The script should rotate logs for specified services, such as httpd and sshd.
+    • Compression:
+        – Old logs should be compressed to save disk space.
+    • Retention Policy:
+        – Implement a retention policy to remove logs older than a specified period (e.g., 30 days).
+    • Automation:
+        – Set up a cron job to automate the log rotation process at regular intervals (e.g., weekly).
+    • Notification:
+        – Send a notification email to the system administrator once the log rotation is complete.
 
 ## Features
     - Log Rotation: Automatically rotates logs for services (e.g., httpd, sshd).
