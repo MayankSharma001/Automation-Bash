@@ -1,3 +1,8 @@
 # Automation-Bash
 
-## This repository showcases a collection of automation projects focused on *Bash scripting for system administration*. Each script is designed to solve practical problems, streamline workflows, and address real-world challenges faced by system administrators.
+### About This Repository
+  - This repository highlights a collection of automation projects built using Bash scripting, specifically tailored for system administration tasks.
+    
+  -  Each script aims to tackle practical challenges, optimize workflows, and solve real-world problems encountered by system administrators.
+
+  - These projects were inspired by my training for the RHCSA Certification, reflecting both foundational and advanced automation concepts.
