@@ -5,4 +5,4 @@
     
   -  Each script aims to tackle practical challenges, optimize workflows, and solve real-world problems encountered by system administrators.
 
-  - These projects were inspired by my training for the RHCSA Certification, reflecting both foundational and advanced automation concepts.
+  - These projects were inspired by my training for the RHCSA and CompTIA Linux + Certifications, reflecting both foundational and advanced automation concepts.
