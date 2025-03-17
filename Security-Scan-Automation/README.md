@@ -21,13 +21,13 @@ for remediation.
     - Automate the script to run periodically (e.g., daily, weekly).
     - Ensure that the script can be scheduled using cron or a similar tool.
   
-# Usage
+## Usage
 1. Give execution permission
       - chmod +x security_scan.sh
 2. Run the script
       - sudo ./security_scan.sh
         
-# Scheduling the Scan (Automation)
+## Scheduling the Scan (Automation)
 1. To run the script automatically every day at midnight, add it to cron:
       - crontab -e
 2. Add this line:
